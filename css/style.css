@@ -1,0 +1,381 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container-salesscore {
+    display: flex;
+    justify-content: center;
+}
+
+/* <!-- ............LEFT NAVIGATION........... --> */
+
+.left-navigation-bar {
+    width: 220px;
+}
+
+.left-header-navigation {
+    position: relative;
+}
+
+.header-images {
+    width: 163.3px;
+    height: 54.1px;
+}
+
+.header-images p {
+    font-family: "noto sans jp bold";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    font-style: normal;
+    color: #ffffff ;
+    width: 176px;
+    height: 43px;
+    border-radius: 5px;
+    background: #42a7c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 180px;
+}
+
+
+#sidelinks ul {
+    list-style:none;
+    border: 1px solid #555;
+    padding:0;
+    margin:0;
+}
+
+#sidelinks li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sidelinks a {
+    text-decoration: none;
+    font-family: "noto sans jp regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: #333333;
+}
+
+#sidelinks i {
+    color: #42a7c2;
+    font-size: 16px;
+    width: 9px;
+    height: 14px;
+}
+
+/* <!-- ...........////CONTAINER-CONTENT////........... --> */
+
+.container-content {
+    width: 931px;
+}
+
+.header-bar {
+    width: 930px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a,i {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-family: "noto sans jp regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    font-style: normal;
+    text-align: left;
+    color: #7b7b7b;
+    padding: 14px 5px;
+}
+
+.topnav-right {
+    float: right;
+}
+
+/*-----------SEARCH-BAR---------  */
+
+.search-bar {
+    width: 930px;
+    height: 80px;
+    display: flex;
+    background: #eaf1f7;
+    justify-content:center;
+    align-items: center;
+    border-radius: 200px;
+}
+
+.search-bar p {
+    font-family: "noto sans jp regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: #333333;
+}
+
+.input-icon i {
+    position: absolute;
+}
+
+.input-icon {
+    margin-left: 30px;
+    width: 533px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding: 10px;
+    color: #7B7B7B;
+    width: 18.3px;
+    height: 18.3px;
+    text-align: center;
+}
+
+.input-field {
+    width: 426px;
+    height: 25px;
+    padding: 10px 35px;
+    border-color: #ced4da;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    background: #ffffff;
+}
+
+.searchButton {
+    width: 94px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: #42a7c2;
+    font-family: "noto sans jp regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    color: #f8f9fa;
+}
+
+/*-------------TITLE GUIDE---------  */
+
+.title-guide {
+    margin-top: 50px;
+}
+
+.title-info {
+    display: flex;
+    align-items: center;
+}
+
+.title-img img {
+    width: 189.7px;
+    height: 148.6px;
+}
+
+.title-text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.title-text span {
+    width: 235px;
+    height: 26px;
+    font-family: "noto sans jp bold";
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 26px;
+    font-style: normal;
+    text-align: left;
+    color: #42a7c2;
+}
+
+.title-text p {
+    width: 570px;
+    height: 17px;
+    font-family: "noto sans jp regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: #333333;
+}
+
+.content-guide {
+    margin-top: 20px;
+}
+
+.content-guide-up  {
+    display: grid;
+    gap: 50px 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    height: 170px;   
+}
+
+.content-guide-down  {
+    display: grid;
+    gap: 50px 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    height: 170px;   
+}
+
+.grid-item {
+    border-color: #42a7c2;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-img {
+    padding-top: 25px;
+}
+
+.content-text p {
+    font-family: "noto sans jp bold";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    font-style: normal;
+    text-align: center;
+    color: #42a7c2;
+}
+
+/*-------------TITLE OUTPUT---------  */
+
+.title-output {
+    margin-top: 50px;
+}
+
+.line-output {
+    margin-top: 30px;
+}
+
+.horizontal_line {
+    width: 920px;
+    border-color: #42a7c2;
+    background-color: #42a7c2;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.line {
+    width: 270px;
+    height: 3px;
+    background: #42a7c2;
+}
+
+.title-content-output p {
+    width: 221px;
+    height: 21px;
+    font-family: "noto sans jp bold";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    font-style: normal;
+    text-align: left;
+    color: #42a7c2;
+}
+
+.info-content-output {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns:  1fr 1fr 1fr;
+    padding: 10px; 
+    width: 108px;
+    height: 57px;
+}
+.grid-item-output {
+    width: 180px;
+    height: 140px;
+    border-radius: 8px;
+    background: #eaf1f7;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line-output-2 {
+    margin-top: 150px;
+}
+
+.line-2 {
+    width: 160px;
+    height: 3px;
+    background: #42a7c2;
+}
+
+.info-content-output-2 {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    padding: 10px; 
+    width: 108px;
+    height: 57px;
+}
+
+.grid-item-output-2 {
+    width: 180px;
+    height: 140px;
+    border-radius: 8px;
+    background: #eaf1f7;
+    padding: 20px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-br {
+    background-image: url("../images/グループ\ 47553.png");
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 57px;
+}
+
+.img-br2 {
+    background-image: url("../images/グループ\ 47557.png");
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 57px;
+}
+
+
+
+
+/*-------------TITLE FUNCTION---------  */
+
+.title-function {
+    margin-top: 200px;
+}
+
+
+
+
