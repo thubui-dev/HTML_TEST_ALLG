@@ -11,10 +11,14 @@ body{
 
 .left-navigation-bar {
     width: 220px;
+    height: 521px;
+    border: 1px solid #E1E8EF;
 }
 
 .left-header-navigation {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
 }
 
 .header-images {
@@ -38,24 +42,25 @@ body{
     justify-content: center;
 }
 
-.sidebar {
+#sidelinks {
     display: flex;
-    flex-direction: column;
-    margin-top: 80px;
-    width: 180px;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    width: 100%;
 }
-
 
 #sidelinks ul {
     list-style:none;
-    border: 1px solid #555;
-    padding:0;
-    margin:0;
+    border: 1px solid #E1E8EF;
+    display: block;
+    padding: 12px;
 }
 
 #sidelinks li {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #E1E8EF;
 }
 
 #sidelinks a {
@@ -431,13 +436,13 @@ body{
 /*-------------FOOTER-----------  */
 
 .footer {
-    width: 1920px;
+    width: 100%;
     height: 74.8px;
     background: #333333;
 }
 
 .footer p {
-    width: 275px;
+    width: 800px;
     height: 13px;
     font-family: "noto sans jp regular";
     font-size: 12px;
